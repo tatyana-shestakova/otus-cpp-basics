@@ -1,0 +1,10 @@
+^C:\USERS\TATYA\ONEDRIVE\ДОКУМЕНТЫ\PROJECTS\OTUS-CPP-BASICS\HOMEWORK5_STATISTICAL_SEQUENCE\BUILD\CMAKEFILES\578C07E7647C521009BB671E568DED6A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence -BC:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/05.homework.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

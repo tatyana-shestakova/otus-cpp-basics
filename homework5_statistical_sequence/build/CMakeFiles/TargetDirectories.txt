@@ -1,5 +1,0 @@
-C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/random_shuffle.dir
-C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/chrono_example.dir
-C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/statistics.dir
-C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/ZERO_CHECK.dir

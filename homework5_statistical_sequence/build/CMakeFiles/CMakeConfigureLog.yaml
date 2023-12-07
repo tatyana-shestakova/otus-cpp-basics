@@ -24,7 +24,11 @@ events:
       The output was:
       0
       Версия MSBuild 17.8.2+60258cb79 для .NET Framework
+<<<<<<< HEAD
       Сборка начата 06.12.2023 21:37:00.
+=======
+      Сборка начата 16.11.2023 0:36:32.
+>>>>>>> 77dcacbd8cd628484ab6909b98fc7126979ca2df
       
       Проект "C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -53,7 +57,11 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
+<<<<<<< HEAD
       Прошло времени 00:00:00.55
+=======
+      Прошло времени 00:00:00.57
+>>>>>>> 77dcacbd8cd628484ab6909b98fc7126979ca2df
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +87,11 @@ events:
       The output was:
       0
       Версия MSBuild 17.8.2+60258cb79 для .NET Framework
+<<<<<<< HEAD
       Сборка начата 06.12.2023 21:37:01.
+=======
+      Сборка начата 16.11.2023 0:36:33.
+>>>>>>> 77dcacbd8cd628484ab6909b98fc7126979ca2df
       
       Проект "C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -108,7 +120,11 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
+<<<<<<< HEAD
       Прошло времени 00:00:00.52
+=======
+      Прошло времени 00:00:00.55
+>>>>>>> 77dcacbd8cd628484ab6909b98fc7126979ca2df
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +143,13 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
+<<<<<<< HEAD
       source: "C:/Users/tatya/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-fujpkw"
       binary: "C:/Users/tatya/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-fujpkw"
+=======
+      source: "C:/Users/tatya/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-wbcq7s"
+      binary: "C:/Users/tatya/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-wbcq7s"
+>>>>>>> 77dcacbd8cd628484ab6909b98fc7126979ca2df
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -136,6 +157,7 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< HEAD
         Change Dir: 'C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-fujpkw'
         
         Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cb8dc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
@@ -164,12 +186,46 @@ events:
           Файл "cmTC_cb8dc.dir\\Debug\\cmTC_cb8dc.tlog\\unsuccessfulbuild" удаляется.
           Обращение к "cmTC_cb8dc.dir\\Debug\\cmTC_cb8dc.tlog\\cmTC_cb8dc.lastbuildstate".
         Сборка проекта "C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fujpkw\\cmTC_cb8dc.vcxproj" завершена (целевые объекты по умолчанию).
+=======
+        Change Dir: 'C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-wbcq7s'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b49f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.2+60258cb79 для .NET Framework
+        Сборка начата 16.11.2023 0:36:33.
+        
+        Проект "C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbcq7s\\cmTC_7b49f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_7b49f.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbcq7s\\Debug\\".
+          Создание каталога "cmTC_7b49f.dir\\Debug\\cmTC_7b49f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_7b49f.dir\\Debug\\cmTC_7b49f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_7b49f.dir\\Debug\\cmTC_7b49f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.38.33128\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b49f.dir\\Debug\\\\" /Fd"cmTC_7b49f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33128 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b49f.dir\\Debug\\\\" /Fd"cmTC_7b49f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.38.33128\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbcq7s\\Debug\\cmTC_7b49f.exe" /INCREMENTAL /ILK:"cmTC_7b49f.dir\\Debug\\cmTC_7b49f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-wbcq7s/Debug/cmTC_7b49f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-wbcq7s/Debug/cmTC_7b49f.lib" /MACHINE:X64  /machine:x64 cmTC_7b49f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7b49f.vcxproj -> C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbcq7s\\Debug\\cmTC_7b49f.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_7b49f.dir\\Debug\\cmTC_7b49f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_7b49f.dir\\Debug\\cmTC_7b49f.tlog\\cmTC_7b49f.lastbuildstate".
+        Сборка проекта "C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wbcq7s\\cmTC_7b49f.vcxproj" завершена (целевые объекты по умолчанию).
+>>>>>>> 77dcacbd8cd628484ab6909b98fc7126979ca2df
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
+<<<<<<< HEAD
         Прошло времени 00:00:00.54
+=======
+        Прошло времени 00:00:00.57
+>>>>>>> 77dcacbd8cd628484ab6909b98fc7126979ca2df
         
       exitCode: 0
   -
@@ -181,8 +237,13 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
+<<<<<<< HEAD
       source: "C:/Users/tatya/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-z39497"
       binary: "C:/Users/tatya/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-z39497"
+=======
+      source: "C:/Users/tatya/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-3hzyvp"
+      binary: "C:/Users/tatya/OneDrive/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-3hzyvp"
+>>>>>>> 77dcacbd8cd628484ab6909b98fc7126979ca2df
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -190,6 +251,7 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< HEAD
         Change Dir: 'C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-z39497'
         
         Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3022d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
@@ -218,12 +280,46 @@ events:
           Файл "cmTC_3022d.dir\\Debug\\cmTC_3022d.tlog\\unsuccessfulbuild" удаляется.
           Обращение к "cmTC_3022d.dir\\Debug\\cmTC_3022d.tlog\\cmTC_3022d.lastbuildstate".
         Сборка проекта "C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z39497\\cmTC_3022d.vcxproj" завершена (целевые объекты по умолчанию).
+=======
+        Change Dir: 'C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-3hzyvp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_423f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.2+60258cb79 для .NET Framework
+        Сборка начата 16.11.2023 0:36:34.
+        
+        Проект "C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3hzyvp\\cmTC_423f6.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_423f6.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3hzyvp\\Debug\\".
+          Создание каталога "cmTC_423f6.dir\\Debug\\cmTC_423f6.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_423f6.dir\\Debug\\cmTC_423f6.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_423f6.dir\\Debug\\cmTC_423f6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.38.33128\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_423f6.dir\\Debug\\\\" /Fd"cmTC_423f6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33128 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_423f6.dir\\Debug\\\\" /Fd"cmTC_423f6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.38.33128\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3hzyvp\\Debug\\cmTC_423f6.exe" /INCREMENTAL /ILK:"cmTC_423f6.dir\\Debug\\cmTC_423f6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-3hzyvp/Debug/cmTC_423f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tatya/OneDrive/Документы/Projects/otus-cpp-basics/homework5_statistical_sequence/build/CMakeFiles/CMakeScratch/TryCompile-3hzyvp/Debug/cmTC_423f6.lib" /MACHINE:X64  /machine:x64 cmTC_423f6.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_423f6.vcxproj -> C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3hzyvp\\Debug\\cmTC_423f6.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_423f6.dir\\Debug\\cmTC_423f6.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_423f6.dir\\Debug\\cmTC_423f6.tlog\\cmTC_423f6.lastbuildstate".
+        Сборка проекта "C:\\Users\\tatya\\OneDrive\\Документы\\Projects\\otus-cpp-basics\\homework5_statistical_sequence\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3hzyvp\\cmTC_423f6.vcxproj" завершена (целевые объекты по умолчанию).
+>>>>>>> 77dcacbd8cd628484ab6909b98fc7126979ca2df
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
+<<<<<<< HEAD
         Прошло времени 00:00:00.54
+=======
+        Прошло времени 00:00:00.55
+>>>>>>> 77dcacbd8cd628484ab6909b98fc7126979ca2df
         
       exitCode: 0
 ...

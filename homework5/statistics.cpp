@@ -38,7 +38,8 @@ int main() {
 	const size_t statistics_count = 1;
 	IStatistics *statistics[statistics_count];
 
-	statistics[0] = new Min{};
+int main() {
+	IStatistics *statistics[new Min{}, new Max{}];
 
 	double val = 0;
 	while (std::cin >> val) {

@@ -12,7 +12,7 @@ public:
 
 class Min : public IStatistics {
 public:
-	Min() : m_min{std::numeric_limits<double>::min()} {
+	Min() : m_min{std::numeric_limits<double>::max()} {
 	}
 
 	void update(double next) override {
@@ -27,19 +27,93 @@ public:
 
 	const char * name() const override {
 		return "min";
-	}
+	} 
 
 private:
 	double m_min;
 };
 
+class Max : public IStatistics {
+public:
+	Max() : m_max{std::numeric_limits<double>::min()} {
+	}
+
+	void update(double next) override {
+		if (next > m_max) {
+			m_max = next;
+		}
+	}
+
+	double eval() const override {
+		return m_max;
+	}
+
+	const char * name() const override {
+		return "max";
+	}
+
+private:
+	double m_max;
+};
+
+class Mean : public IStatistics {
+public:
+	Mean() : m_mean{0}, m_index{0} {
+	}
+
+	void update(double next) override {
+		m_mean += next;
+		m_index++;
+	}
+
+	double eval() const override {
+		return m_mean / m_index;
+	}
+
+	const char * name() const override {
+		return "mean";
+	}
+
+private:
+	double m_mean;
+	double m_index;
+};
+
+class Std : public IStatistics {
+public:
+	Std() : m_mean{0}, m_index{0}, m_square{0} {
+	}
+
+	void update(double next) override {
+		m_mean += next;
+		m_square += next * next;
+		m_index++;
+	}
+
+	double eval() const override {
+		double result = m_square - m_mean * m_mean / m_index;
+		return sqrt(result /( m_index - 1));
+	}
+
+	const char * name() const override {
+		return "std";
+	}
+
+private:
+	double m_mean;
+	double m_index;
+	double m_square;
+};
+
 int main() {
 
-	const size_t statistics_count = 1;
+	const size_t statistics_count = 4;
 	IStatistics *statistics[statistics_count];
 
-int main() {
-	IStatistics *statistics[new Min{}, new Max{}];
+	statistics[0] = new Min{};
+	statistics[1] = new Max{};
+	statistics[2] = new Mean{};
+	statistics[3] = new Std{};
 
 	double val = 0;
 	while (std::cin >> val) {
